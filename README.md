@@ -18,7 +18,7 @@ source install/setup.bash
 ros2 launch jarabot_sim jarabot_simulator.launch.py 
 ```
 
-# arabot Simulator for ROS 2 Humble
+# Jarabot Simulator for ROS 2 Humble
 
 Jarabot Simulator는 실제 자라봇(Jarabot)의 주행, 센서, 환경 정보를 
 **ROS 2 Humble 에서 그대로 재현**할 수 있도록 설계된 2D/3D 하이브리드 
