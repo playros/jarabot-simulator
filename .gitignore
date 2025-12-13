@@ -1,0 +1,17 @@
+# colcon / ROS2 build outputs
+build/
+install/
+log/
+
+# 일반적으로 안 올리는 것들
+*.log
+*.pyc
+__pycache__/
+
+# 에디터/IDE 설정
+.vscode/
+.idea/
+
+# 기타 OS 파일
+.DS_Store
+Thumbs.db
