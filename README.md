@@ -23,6 +23,12 @@ perception algorithms without physical hardware**.
 
 ## Overview
 
+### Image of the actual JaraBot
+
+![Jarabot RViz](jarabot.png)
+
+### Image of the Jarabot simulator operating in RViz
+
 ![Jarabot RViz](jarabot_sim_rviz.png)
 
 Jarabot Simulator reproduces core mobile robot components in ROS 2, including:
