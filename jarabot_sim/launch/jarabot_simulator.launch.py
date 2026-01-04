@@ -86,4 +86,22 @@ def generate_launch_description():
                 'max_points': 5000,
             }]
         ),
+
+        # 7) 전체 맵 + 궤적 Image (RViz에서 Image로 도킹해서 보기)
+        Node(
+            package='jarabot_sim',
+            executable='jara_sim_image',
+            name='jara_sim_image',
+            output='screen',
+            parameters=[{
+                'map_size_m': 12.0,
+                'image_size_px': 600,
+                'publish_hz': 10.0,
+                'odom_topic': '/odom',
+                'image_topic': '/jara_sim/map_image',
+                'max_trail_points': 5000,
+            }]
+        ),
+
+
     ])

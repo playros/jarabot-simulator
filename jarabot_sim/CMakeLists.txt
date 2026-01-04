@@ -52,12 +52,20 @@ ament_target_dependencies(jara_sim_path
   geometry_msgs
 )
 
+add_executable(jara_sim_image src/jara_sim_image.cpp)
+ament_target_dependencies(jara_sim_image 
+  rclcpp 
+  nav_msgs 
+  sensor_msgs
+)
+
 install(TARGETS
   jara_sim_encoder
   jara_sim_odometry
   jara_sim_lidar
   jara_sim_marker
   jara_sim_path
+  jara_sim_image
   DESTINATION lib/${PROJECT_NAME}
 )
 
